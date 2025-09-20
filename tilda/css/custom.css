@@ -1,0 +1,17 @@
+.t-checkbox__indicator {
+    border: 1px solid #905A2B;
+    border-radius: 6px !important;
+}
+
+.t-checkbox__indicator:after {
+    content: '';
+    position: absolute;
+    display: none;
+    left: 38%;
+    top: 17%;
+    width: 3px;
+    height: 8px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}

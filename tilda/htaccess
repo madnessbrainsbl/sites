@@ -1,0 +1,371 @@
+ErrorDocument 403 /page36241423.html
+ErrorDocument 404 /page36241423.html
+
+DirectoryIndex page37155686.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://astrocyte\.spb\.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.astrocyte.spb.ru [NC]
+RewriteRule ^(.*)$ https://astrocyte\.spb\.ru/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^about$ page37499642.html [NC]
+RewriteRule ^about/$ page37499642.html [NC]
+
+RewriteRule ^appointment$ page37733911.html [NC]
+RewriteRule ^appointment/$ page37733911.html [NC]
+
+RewriteRule ^news$ page38013995.html [NC]
+RewriteRule ^news/$ page38013995.html [NC]
+
+RewriteRule ^contacts$ page36241867.html [NC]
+RewriteRule ^contacts/$ page36241867.html [NC]
+
+RewriteRule ^scientific_activity$ page38123981.html [NC]
+RewriteRule ^scientific_activity/$ page38123981.html [NC]
+
+RewriteRule ^documents$ page36418419.html [NC]
+RewriteRule ^documents/$ page36418419.html [NC]
+
+RewriteRule ^questions$ page38066910.html [NC]
+RewriteRule ^questions/$ page38066910.html [NC]
+
+RewriteRule ^vacancy$ page40278078.html [NC]
+RewriteRule ^vacancy/$ page40278078.html [NC]
+
+RewriteRule ^dostupnaya_sreda$ page50618339.html [NC]
+RewriteRule ^dostupnaya_sreda/$ page50618339.html [NC]
+
+RewriteRule ^prices$ page58926349.html [NC]
+RewriteRule ^prices/$ page58926349.html [NC]
+
+RewriteRule ^appointment_tg$ page39644007.html [NC]
+RewriteRule ^appointment_tg/$ page39644007.html [NC]
+
+RewriteRule ^services_neurology$ page39864113.html [NC]
+RewriteRule ^services_neurology/$ page39864113.html [NC]
+
+RewriteRule ^services_psychology$ page39879430.html [NC]
+RewriteRule ^services_psychology/$ page39879430.html [NC]
+
+RewriteRule ^services_cardiology$ page39884874.html [NC]
+RewriteRule ^services_cardiology/$ page39884874.html [NC]
+
+RewriteRule ^services_therapy$ page39885558.html [NC]
+RewriteRule ^services_therapy/$ page39885558.html [NC]
+
+RewriteRule ^services_manipulation$ page39898551.html [NC]
+RewriteRule ^services_manipulation/$ page39898551.html [NC]
+
+RewriteRule ^services_migraine$ page39897399.html [NC]
+RewriteRule ^services_migraine/$ page39897399.html [NC]
+
+RewriteRule ^services_migraine/monoklonalnye-antitela$ page62602375.html [NC]
+RewriteRule ^services_migraine/monoklonalnye-antitela/$ page62602375.html [NC]
+
+RewriteRule ^services_botulinum$ page39897509.html [NC]
+RewriteRule ^services_botulinum/$ page39897509.html [NC]
+
+RewriteRule ^services_botulinum-migraine$ page61832559.html [NC]
+RewriteRule ^services_botulinum-migraine/$ page61832559.html [NC]
+
+RewriteRule ^services_medical_consultations$ page39885881.html [NC]
+RewriteRule ^services_medical_consultations/$ page39885881.html [NC]
+
+RewriteRule ^funktional_diagnostika$ page51467761.html [NC]
+RewriteRule ^funktional_diagnostika/$ page51467761.html [NC]
+
+RewriteRule ^services_somnology$ page54879241.html [NC]
+RewriteRule ^services_somnology/$ page54879241.html [NC]
+
+RewriteRule ^somnografia$ page47505243.html [NC]
+RewriteRule ^somnografia/$ page47505243.html [NC]
+
+RewriteRule ^sitemap$ page44012939.html [NC]
+RewriteRule ^sitemap/$ page44012939.html [NC]
+
+RewriteRule ^requisites$ page44663857.html [NC]
+RewriteRule ^requisites/$ page44663857.html [NC]
+
+RewriteRule ^politika-konfidenczialnosti$ page53305781.html [NC]
+RewriteRule ^politika-konfidenczialnosti/$ page53305781.html [NC]
+
+RewriteRule ^error$ page36241423.html [NC]
+RewriteRule ^error/$ page36241423.html [NC]
+
+RewriteRule ^1111$ page65533197.html [NC]
+RewriteRule ^1111/$ page65533197.html [NC]
+
+RewriteRule ^123456789$ page65551867.html [NC]
+RewriteRule ^123456789/$ page65551867.html [NC]
+
+RewriteRule ^reviews_astrocyte$ page37947682.html [NC]
+RewriteRule ^reviews_astrocyte/$ page37947682.html [NC]
+
+RewriteRule ^reviews_rodionovaov$ page37953089.html [NC]
+RewriteRule ^reviews_rodionovaov/$ page37953089.html [NC]
+
+RewriteRule ^reviews_krasnovvs$ page39378203.html [NC]
+RewriteRule ^reviews_krasnovvs/$ page39378203.html [NC]
+
+RewriteRule ^reviews_kushniryb$ page39378307.html [NC]
+RewriteRule ^reviews_kushniryb/$ page39378307.html [NC]
+
+RewriteRule ^reviews_didenkoyv$ page39378380.html [NC]
+RewriteRule ^reviews_didenkoyv/$ page39378380.html [NC]
+
+RewriteRule ^reviews_tereschenkonm$ page39378639.html [NC]
+RewriteRule ^reviews_tereschenkonm/$ page39378639.html [NC]
+
+RewriteRule ^reviews_nikitinaaa$ page39378794.html [NC]
+RewriteRule ^reviews_nikitinaaa/$ page39378794.html [NC]
+
+RewriteRule ^reviews_palehovaov$ page39378872.html [NC]
+RewriteRule ^reviews_palehovaov/$ page39378872.html [NC]
+
+RewriteRule ^reviews_merkurevvv$ page39378957.html [NC]
+RewriteRule ^reviews_merkurevvv/$ page39378957.html [NC]
+
+RewriteRule ^reviews_kirilenkoaa$ page39379023.html [NC]
+RewriteRule ^reviews_kirilenkoaa/$ page39379023.html [NC]
+
+RewriteRule ^reviews_haritonovanv$ page39378579.html [NC]
+RewriteRule ^reviews_haritonovanv/$ page39378579.html [NC]
+
+RewriteRule ^reviews_murzinaeg$ page39379088.html [NC]
+RewriteRule ^reviews_murzinaeg/$ page39379088.html [NC]
+
+RewriteRule ^reviews_krasnovaoa$ page39379144.html [NC]
+RewriteRule ^reviews_krasnovaoa/$ page39379144.html [NC]
+
+RewriteRule ^reviews_chernenkoea$ page39379196.html [NC]
+RewriteRule ^reviews_chernenkoea/$ page39379196.html [NC]
+
+RewriteRule ^129otzivi$ page56685025.html [NC]
+RewriteRule ^129otzivi/$ page56685025.html [NC]
+
+RewriteRule ^_129_otzivi$ page56841129.html [NC]
+RewriteRule ^_129_otzivi/$ page56841129.html [NC]
+
+RewriteRule ^neurology$ page39824608.html [NC]
+RewriteRule ^neurology/$ page39824608.html [NC]
+
+RewriteRule ^psychology$ page39825638.html [NC]
+RewriteRule ^psychology/$ page39825638.html [NC]
+
+RewriteRule ^cardiology$ page39826136.html [NC]
+RewriteRule ^cardiology/$ page39826136.html [NC]
+
+RewriteRule ^therapy$ page39826138.html [NC]
+RewriteRule ^therapy/$ page39826138.html [NC]
+
+RewriteRule ^somnology$ page54731951.html [NC]
+RewriteRule ^somnology/$ page54731951.html [NC]
+
+RewriteRule ^vrach_funktional$ page47748193.html [NC]
+RewriteRule ^vrach_funktional/$ page47748193.html [NC]
+
+RewriteRule ^about_rodionovaov$ page37488858.html [NC]
+RewriteRule ^about_rodionovaov/$ page37488858.html [NC]
+
+RewriteRule ^about_krasnovvs$ page37636973.html [NC]
+RewriteRule ^about_krasnovvs/$ page37636973.html [NC]
+
+RewriteRule ^about_kushniryb$ page37660805.html [NC]
+RewriteRule ^about_kushniryb/$ page37660805.html [NC]
+
+RewriteRule ^about_didenkouv$ page37665870.html [NC]
+RewriteRule ^about_didenkouv/$ page37665870.html [NC]
+
+RewriteRule ^about_tereschenkonm$ page37666260.html [NC]
+RewriteRule ^about_tereschenkonm/$ page37666260.html [NC]
+
+RewriteRule ^about_nikitinaaa$ page38511935.html [NC]
+RewriteRule ^about_nikitinaaa/$ page38511935.html [NC]
+
+RewriteRule ^about_kulaginpa$ page47453023.html [NC]
+RewriteRule ^about_kulaginpa/$ page47453023.html [NC]
+
+RewriteRule ^about_palehovaov$ page37666702.html [NC]
+RewriteRule ^about_palehovaov/$ page37666702.html [NC]
+
+RewriteRule ^about_mercurevvv$ page37668005.html [NC]
+RewriteRule ^about_mercurevvv/$ page37668005.html [NC]
+
+RewriteRule ^about_kirilenkoaa$ page37679465.html [NC]
+RewriteRule ^about_kirilenkoaa/$ page37679465.html [NC]
+
+RewriteRule ^about_haritonovanv$ page45139529.html [NC]
+RewriteRule ^about_haritonovanv/$ page45139529.html [NC]
+
+RewriteRule ^about_trushinain$ page53642919.html [NC]
+RewriteRule ^about_trushinain/$ page53642919.html [NC]
+
+RewriteRule ^about_krasnovaoa$ page37681691.html [NC]
+RewriteRule ^about_krasnovaoa/$ page37681691.html [NC]
+
+RewriteRule ^about_chernenkoea$ page37682055.html [NC]
+RewriteRule ^about_chernenkoea/$ page37682055.html [NC]
+
+RewriteRule ^newyear_gift$ page41307563.html [NC]
+RewriteRule ^newyear_gift/$ page41307563.html [NC]
+
+RewriteRule ^thanks$ page41344861.html [NC]
+RewriteRule ^thanks/$ page41344861.html [NC]
+
+RewriteRule ^new_year$ page60079215.html [NC]
+RewriteRule ^new_year/$ page60079215.html [NC]
+
+RewriteRule ^copy_3$ page58153585.html [NC]
+RewriteRule ^copy_3/$ page58153585.html [NC]
+
+RewriteRule ^copy_4$ page60070373.html [NC]
+RewriteRule ^copy_4/$ page60070373.html [NC]
+
+RewriteRule ^copy_7$ page60070819.html [NC]
+RewriteRule ^copy_7/$ page60070819.html [NC]
+
+RewriteRule ^copy_8$ page60078783.html [NC]
+RewriteRule ^copy_8/$ page60078783.html [NC]
+
+RewriteRule ^12345678901$ page52910293.html [NC]
+RewriteRule ^12345678901/$ page52910293.html [NC]
+
+RewriteRule ^services_prices_000$ page37559425.html [NC]
+RewriteRule ^services_prices_000/$ page37559425.html [NC]
+
+RewriteRule ^arhiv$ page55986451.html [NC]
+RewriteRule ^arhiv/$ page55986451.html [NC]
+
+RewriteRule ^about_murzinaeg$ page37680407.html [NC]
+RewriteRule ^about_murzinaeg/$ page37680407.html [NC]
+
+RewriteRule ^manualnyj-terapevt$ page39826056.html [NC]
+RewriteRule ^manualnyj-terapevt/$ page39826056.html [NC]
+
+RewriteRule ^services_chiropractor$ page39884376.html [NC]
+RewriteRule ^services_chiropractor/$ page39884376.html [NC]
+
+RewriteRule ^astrocyte-doctorpiter$ page46034437.html [NC]
+RewriteRule ^astrocyte-doctorpiter/$ page46034437.html [NC]
+
+RewriteRule ^plan_upravlenia_migreni$ page53288925.html [NC]
+RewriteRule ^plan_upravlenia_migreni/$ page53288925.html [NC]
+
+RewriteRule ^stop_migraine$ page53871743.html [NC]
+RewriteRule ^stop_migraine/$ page53871743.html [NC]
+
+RewriteRule ^blog$ page52670171.html [NC]
+RewriteRule ^blog/$ page52670171.html [NC]
+
+RewriteRule ^blog/kognitivno_povedencheskaya__psychotherapiya$ page51130545.html [NC]
+RewriteRule ^blog/kognitivno_povedencheskaya__psychotherapiya/$ page51130545.html [NC]
+
+RewriteRule ^blog/lechenie_depressii$ page55348801.html [NC]
+RewriteRule ^blog/lechenie_depressii/$ page55348801.html [NC]
+
+RewriteRule ^blog/lechenie_goliovnoi_boli$ page55877751.html [NC]
+RewriteRule ^blog/lechenie_goliovnoi_boli/$ page55877751.html [NC]
+
+RewriteRule ^blog/profilaktika_migreni_botox$ page56065791.html [NC]
+RewriteRule ^blog/profilaktika_migreni_botox/$ page56065791.html [NC]
+
+RewriteRule ^blog/panicheskaya-ataka$ page64036497.html [NC]
+RewriteRule ^blog/panicheskaya-ataka/$ page64036497.html [NC]
+
+RewriteRule ^zabolevanie$ page62749997.html [NC]
+RewriteRule ^zabolevanie/$ page62749997.html [NC]
+
+RewriteRule ^zabolevanie/migraine$ page62745891.html [NC]
+RewriteRule ^zabolevanie/migraine/$ page62745891.html [NC]
+
+RewriteRule ^2222$ page65942499.html [NC]
+RewriteRule ^2222/$ page65942499.html [NC]
+
+RewriteRule ^111111111$ page65947811.html [NC]
+RewriteRule ^111111111/$ page65947811.html [NC]
+
+RewriteRule ^services_prices$ https://astrocyte\.spb\.ru/services_price [R=301,NC]
+
+RewriteRule ^chiropractor$ https://astrocyte\.spb\.ru/manualnyj-terapevt [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/$ https://astrocyte\.spb\.ru/booking.medflex.ru/?user=e4ba16e7686fe4c4224af489d413b364&source=3 [R=301,NC]
+
+RewriteRule ^astrocyte.spb.ru/kognitivnaia__psychotherapy$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/blog/kognitivno_povedencheskaya__psychotherapiya [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru$ https://astrocyte\.spb\.ru/booking.medflex.ru/?user=e4ba16e7686fe4c4224af489d413b364&source=3 [R=301,NC]
+
+RewriteRule ^astrocyte.spb.ru/page80870.html$ https://astrocyte\.spb\.ru/astrocyte.spb.ru [R=301,NC]
+
+RewriteRule ^disk.yandex.ru/i/hQgoKTg63LZbHA$ https://astrocyte\.spb\.ru/documents [R=301,NC]
+
+RewriteRule ^tilda.ru/zero/null$ https://astrocyte\.spb\.ru/astrocyte.spb.ru [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/my/login/$ https://astrocyte\.spb\.ru/booking.medflex.ru/?user=e4ba16e7686fe4c4224af489d413b364&source=3 [R=301,NC]
+
+RewriteRule ^lechenie_depressii$ https://astrocyte\.spb\.ru/blog/lechenie_depressii [R=301,NC]
+
+RewriteRule ^kognitivno_povedencheskaya__psychotherapiya$ https://astrocyte\.spb\.ru/blog/kognitivno_povedencheskaya__psychotherapiya [R=301,NC]
+
+RewriteRule ^lechenie_goliovnoi_boli$ https://astrocyte\.spb\.ru/blog/lechenie_goliovnoi_boli [R=301,NC]
+
+RewriteRule ^profilaktika_migreni_botox$ https://astrocyte\.spb\.ru/blog/profilaktika_migreni_botox [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000221/1015/10000019/10000005/570743/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_murzinaeg [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000219/1014/10000013/10000005/570748/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_krasnovaoa [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000218/1013/10000028/10000138/602842/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_didenkouv [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000218/1013/10000008/10000138,10000140/570746/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_krasnovvs [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000218/1013/10000009/10000005,10000136,10000138,10000140/570739/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_kushniryb [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000218/1013/10000037/10000005,10000138,10000140/605446/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_nikitinaaa [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000218/1013/10000007/10000005,10000138,10000140/570745/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_rodionovaov [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000218/1013/10000031/10000005/602839/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_tereschenkonm [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000386/3337/10000043/10000005,10000138/606170/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_kulaginpa [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000222/1016/10000034/10000136/602841/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_kirilenkoaa [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000222/1016/10000022/10000005,10000136/570896/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_mercurevvv [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000222/1016/10000044/10000005,10000136,10000140/611248/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_trushinain [R=301,NC]
+
+RewriteRule ^lk.astrocyte.spb.ru/ru/schedule/34768/3/10000222/1016/10000042/10000005,10000136,10000138/605871/$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/about_haritonovanv [R=301,NC]
+
+RewriteRule ^astrocyte.spb.ru/services_price$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/services_neurology [R=301,NC]
+
+RewriteRule ^services_price$ https://astrocyte\.spb\.ru/services_neurology [R=301,NC]
+
+RewriteRule ^astrocyte.spb.ru/page60079215.html$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/new_year [R=301,NC]
+
+RewriteRule ^astrocyte.spb.ru/services_manual-therapy$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/services_chiropractor [R=301,NC]
+
+RewriteRule ^astrocyte.spb.ru/services_migraine-monoklonalnye-antitela$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/services_migraine/monoklonalnye-antitela [R=301,NC]
+
+RewriteRule ^astrocyte.spb.ru/zabolevanie$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/blog [R=301,NC]
+
+RewriteRule ^astrocyte.spb.ru/services_migraine/monoklonalnye-antitela$ https://astrocyte\.spb\.ru/astrocyte.spb.ru/services_migraine/monoklonalnye-antitela [R=301,NC]
+
+RewriteRule ^services_migraine-monoklonalnye-antitela$ https://astrocyte\.spb\.ru/services_migraine/monoklonalnye-antitela [R=301,NC]
+
+RewriteRule ^kognitivnaia_terapiia$ https://astrocyte\.spb\.ru/blog/kognitivno_povedencheskaya__psychotherapiya [R=301,NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+
+<IfModule mod_headers.c>
+	Header unset X-Frame-Options
+	Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
