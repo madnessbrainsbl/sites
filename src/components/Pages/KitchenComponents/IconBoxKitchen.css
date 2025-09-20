@@ -1,0 +1,24 @@
+
+.genn-kitchen-IconsBox .genn-IconsBox-containerCard {
+    background: #202020;
+    color: #fff;
+}
+
+.genn-kitchen-IconsBox h4 {
+    color: #fff;
+}
+
+.genn-kitchen-IconsBox button.genn-IconsBox-Card {
+    color: #D4603B;
+}
+
+.genn-kitchen-IconsBox {
+    background: #000;
+}
+.adm-text-description {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 25px;
+    font-weight: normal;
+}

@@ -1,0 +1,56 @@
+.genn-VideoSliderMobileModel {
+  background-color: #fff;
+  border-radius: 40px 40px 0 0;
+  overflow: auto;
+}
+.genn-VideoSliderMobileModel-info {
+  padding: 30px;
+   color: #000;
+}
+
+.genn-VideoSliderMobileModel-info p{
+  color: #000;
+}
+
+.genn-VideoSliderMobileModel-info h2 {
+  color: #000;
+  -webkit-text-stroke-width: 0.5;
+  -webkit-text-stroke-color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 34px;
+}
+
+.genn-VideoSliderMobileModel-img{
+  min-height: 258px;
+  max-height: 32%;
+  overflow: hidden;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+.genn-VideoSliderMobileModel {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Убедитесь, что контейнер занимает всю высоту */
+  padding-bottom: 8%;
+}
+
+.genn-VideoSliderMobileModel-img {
+  height: 200px; /* Задайте фиксированную высоту для изображения */
+  background-size: cover;
+  background-position: center;
+}
+
+.genn-VideoSliderMobileModel-info {
+  padding: 16px;
+  flex-grow: 1; /* Растягиваем область с текстом */
+  overflow-y: auto; /* Включаем прокрутку только внутри */
+}
+
+.genn-button-container {
+  padding: 16px;
+}

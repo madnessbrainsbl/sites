@@ -1,0 +1,9 @@
+.genn-SliderImg.genn-shkaf-img {
+    padding: 23px  0 23px 0;
+}
+
+@media (max-width: 435px) {
+    .genn-shkaf-img .genn-Categoryes-image-container {
+        padding: 0 0px;
+    }
+}

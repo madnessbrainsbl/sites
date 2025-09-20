@@ -1,0 +1,140 @@
+.genn-templateCardV1-container.Prikhozhie {
+    display: none;
+}
+.PrikhozhieTextBov {
+    background: #000;
+    color: white;
+    padding: 25px;
+}
+.genn-templateCardV1-container.Prikhozhie {
+    display: none;
+}
+
+.genn-Prikhozhie-text-TwoButtonV2-container {
+    padding-bottom: 56px;
+}
+.genn-Prikhozhie-text-TwoButtonV2-container {
+    background: #000000;
+    color: #fff;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 83px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.PrikhozhieTextBov .genn-kitchenBaner-title {
+    color: #fff;
+    opacity: 0.75;
+}
+.PrikhozhieTextBov {
+    display: none !important;
+    
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .PrikhozhieTextBov {
+        display: none !important;
+         }
+
+.genn-TwoButtonV2.Prikhozhie {
+    display: none;
+}
+
+.genn-Prikhozhie-text-TwoButtonV2-container {
+    display: none;
+}
+
+.genn-templateCardV1-container.Prikhozhie {display: flex;justify-content: center;}
+
+.genn-templateCardV1-photo.Prikhozhie2 {
+    width: 60%;
+}
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .PrikhozhieTextBov {
+        display: block !important;
+        
+    }
+
+.genn-TwoButtonV2.Prikhozhie {
+    display: none;
+}
+
+.genn-Prikhozhie-text-TwoButtonV2-container {
+    display: none;
+}
+
+.genn-templateCardV1-container.Prikhozhie {display: flex;justify-content: center;}
+
+.genn-templateCardV1-photo.Prikhozhie2 {
+    width: 100%;
+}
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+
+    .PrikhozhieTextBov {
+        display: block !important;
+        
+    }
+    .PrikhozhieTextBov {
+        padding: 10px 20px 20px 22px;
+    }
+
+.genn-TwoButtonV2.Prikhozhie {
+    display: none;
+}
+
+.genn-Prikhozhie-text-TwoButtonV2-container {
+    display: none;
+}
+
+.genn-templateCardV1-container.Prikhozhie {display: flex;justify-content: center;}
+
+.genn-templateCardV1-photo.Prikhozhie2 {
+    width: 100%;
+}
+    
+
+}
+
+@media  (max-width: 374px) {
+
+    .PrikhozhieTextBov {
+        display: block !important;
+        
+    }
+    .PrikhozhieTextBov {
+        padding: 10px 20px 20px 22px;
+    }
+
+.genn-TwoButtonV2.Prikhozhie {
+    display: none;
+}
+
+.genn-Prikhozhie-text-TwoButtonV2-container {
+    display: none;
+}
+
+.genn-templateCardV1-container.Prikhozhie {display: flex;justify-content: center;}
+
+.genn-templateCardV1-photo.Prikhozhie2 {
+    width: 100%;
+}
+    
+}
